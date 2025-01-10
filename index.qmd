@@ -28,17 +28,16 @@ library(dplyr)
 
 gs4_deauth()
 
-schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
 
-schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1ApKNLeaFOhI88X3aYRQZDTia0y41h9qqYrRh4o5kY04', sheet="Spring")
+schedule= read_sheet('https://docs.google.com/spreadsheets/d/1ApKNLeaFOhI88X3aYRQZDTia0y41h9qqYrRh4o5kY04', sheet="Spring")
 ```
 
-## Fall Schedule {{< fa calendar-days>}}
+## Schedule {{< fa calendar-days>}}
 
 ```{r}
-#| label: fall
+#| label: spring
 
-schedule.Fall |>
+schedule |>
   mutate(
     Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
     ) |>
@@ -62,32 +61,3 @@ schedule.Fall |>
   opt_stylize(style = 1, color = "gray")
 ```
 
-## Spring Schedule {{< fa calendar-days>}}
-
-```{r}
-#| label: spring
-
-schedule.Spring |>
-  #uncomment below when abstract column is added to sheet
-  #mutate(
-  #  Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
-  #  ) |>
-  #select(-abstract) |>
-  gt() |>
-  fmt_markdown(
-    columns = c(Moderator, Title)
-  ) |>
-  fmt_date(
-    columns = Date,
-    date_style = "day_m"
-  ) |>
-  sub_missing(missing_text = "") |>
-  cols_width(
-    Date ~ px(100),
-    Moderator ~ px(150),
-    Speaker ~ px(150),
-    Title ~ px(450)
-  )  |>
-  cols_align("left") |>
-  opt_stylize(style = 1, color = "gray")
-```
