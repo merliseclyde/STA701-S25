@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/TBA.html</loc>
+    <lastmod>2025-01-10T03:51:43.592Z</lastmod>
+  </url>
+  <url>
     <loc>https://merliseclyde.github.io/STA701-S25/about.html</loc>
-    <lastmod>2025-01-10T02:55:52.252Z</lastmod>
+    <lastmod>2025-01-10T03:51:43.592Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/index.html</loc>
-    <lastmod>2025-01-10T02:59:22.301Z</lastmod>
+    <lastmod>2025-01-10T03:51:43.600Z</lastmod>
   </url>
 </urlset>
