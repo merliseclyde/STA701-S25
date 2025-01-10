@@ -1,0 +1,93 @@
+---
+title: "Graduate Student Research Seminar Series"
+editor_options: 
+  chunk_output_type: console
+execute:
+  echo: false
+---
+
+![](images/duke.jpg){fig-alt="Photo of Duke Chapel and Broadhead Center."}
+
+**Time**: Mondays 11:45 - 1:00 pm
+
+**Place**: Reuben-Cooke Building 130
+
+**Instructor:** Merlise Clyde [clyde\@duke.edu](clyde@duke.edu)
+
+```{r}
+#| message: false
+
+library(googlesheets4)
+#gs4_auth(email="merlise.clyde@gmail.com")
+library(gt)
+library(dplyr)
+```
+
+```{r}
+#| message: false
+
+gs4_deauth()
+
+schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
+
+schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
+```
+
+## Fall Schedule {{< fa calendar-days>}}
+
+```{r}
+#| label: fall
+
+schedule.Fall |>
+  mutate(
+    Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
+    ) |>
+  select(-abstract) |>
+  gt() |>
+  fmt_date(
+    columns = Date,
+    date_style = "day_m"
+  ) |>
+  fmt_markdown(
+    columns = c(Moderator, Title)
+  ) |>
+  sub_missing(missing_text = "") |>
+  cols_width(
+    Date ~ px(100),
+    Moderator ~ px(150),
+    Speaker ~ px(150),
+    Title ~ px(450)
+  ) |>
+  cols_align("left") |>
+  opt_stylize(style = 1, color = "gray")
+```
+
+## Spring Schedule {{< fa calendar-days>}}
+
+```{r}
+#| label: spring
+
+schedule.Spring |>
+  #uncomment below when abstract column is added to sheet
+  #mutate(
+  #  Title = if_else(!is.na(abstract), paste0("[", Title, "](abstracts/", abstract, ")"), NA)
+  #  ) |>
+  #select(-abstract) |>
+  gt() |>
+  fmt_markdown(
+    columns = c(Moderator, Title)
+  ) |>
+  fmt_date(
+    columns = Date,
+    date_style = "day_m"
+  ) |>
+  sub_missing(missing_text = "") |>
+  cols_width(
+    Date ~ px(100),
+    Moderator ~ px(150),
+    Speaker ~ px(150),
+    Title ~ px(450)
+  )  |>
+  cols_align("left") |>
+  opt_stylize(style = 1, color = "gray")
+```
