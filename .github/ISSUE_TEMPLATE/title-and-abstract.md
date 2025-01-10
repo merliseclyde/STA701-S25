@@ -14,21 +14,20 @@ title: "My Awesome 701 Talk!"
 
 author: "Jane Q Smith"
 
-date: "Aug 28, 2023"
+date: "Jan 1, 2025"
 
 ---
-
-
-
-
 
 ## Abstract 
 
 Your abstract should be one paragraph, concise and should convey the main ideas and results of your presentation.   Try to avoid using mathematical expressions, if possible.
 
 
-
-
 ### Advisor(s)
 
 My advisor
+
+
+### Bio
+
+a brief bio - previous degree(s) and school, year in program, research interests, etc for moderator to help introduce you 
