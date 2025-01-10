@@ -10,7 +10,7 @@ execute:
 
 **Time**: Mondays 11:45 - 1:00 pm
 
-**Place**: Reuben-Cooke Building 130
+**Place**: Old Chem 116
 
 **Instructor:** Merlise Clyde [clyde\@duke.edu](clyde@duke.edu)
 
@@ -30,7 +30,7 @@ gs4_deauth()
 
 schedule.Fall = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Fall")
 
-schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1RI5q4TM3cUH52WXezd26vLtf9WHF1nakXe2zLTmXJKc', sheet="Spring")
+schedule.Spring = read_sheet('https://docs.google.com/spreadsheets/d/1ApKNLeaFOhI88X3aYRQZDTia0y41h9qqYrRh4o5kY04', sheet="Spring")
 ```
 
 ## Fall Schedule {{< fa calendar-days>}}

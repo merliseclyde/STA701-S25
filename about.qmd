@@ -18,8 +18,8 @@ This course provides graduate students with the opportunity to share their resea
 
 -   First and second year PhD students will serve as **Moderators**, who will introduce the speakers and facilitate Q&A.
 
--   Any students who will need to change the date of the presentation should submit a [request](https://github.com/merliseclyde/sta701-F23/issues/new/choose) in Github.[^1] Please provide the alternate date(s) and confirmation that the other individual is willing to switch.
+-   Any students who will need to change the date of the presentation should submit a [request](https://github.com/merliseclyde/sta701-S25/issues/new/choose) in Github.[^1] Please provide the alternate date(s) and confirmation that the other individual is willing to switch.
 
--   Please submit [titles and abstracts](https://github.com/merliseclyde/sta701-F23/issues/new/choose) at least one week in advance.
+-   Please submit [titles and abstracts](https://github.com/merliseclyde/sta701-S25/issues/new/choose) at least one week in advance.
 
 [^1]: You must be logged in to GitHub to submit a request.
