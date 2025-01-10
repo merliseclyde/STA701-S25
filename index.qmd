@@ -29,7 +29,7 @@ library(dplyr)
 gs4_deauth()
 
 
-schedule= read_sheet('https://docs.google.com/spreadsheets/d/1ApKNLeaFOhI88X3aYRQZDTia0y41h9qqYrRh4o5kY04', sheet="Spring")
+schedule = read_sheet('https://docs.google.com/spreadsheets/d/1ApKNLeaFOhI88X3aYRQZDTia0y41h9qqYrRh4o5kY04', sheet="Spring")
 ```
 
 ## Schedule {{< fa calendar-days>}}
