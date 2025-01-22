@@ -1,0 +1,23 @@
+---
+title: "Sharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes"
+
+author: "Cathy Lee"
+
+date: "Jan 27, 2025"
+
+---
+
+## Abstract 
+
+Ordinal outcomes are commonly measured across disciplines. However, with such ordered categorical outcomes, we do not have information on the magnitude of the difference between outcomes. Because of this, commonly studied estimands in causal experiments, such as the average treatment effect (ATE), are not well defined. One approach to dealing with ordinal outcomes is latent variable modeling. However, a partial identification strategy may be desirable as it does not require making modeling assumptions. To that end, we prove sharp upper and lower bounds on the probability that the potential outcome under treatment is equal to that under control. The infrequency at which the sharp lower bound is strictly greater than zero motivates us to prove how the sharp lower bound changes when we inject belief on the magnitude of the probability that the outcome under the two groups are equal.
+
+
+### Advisor(s)
+
+Alex Volfovsky
+
+
+### Bio
+
+Cathy is a 4th year whose research focus is in causal inference.
+---
