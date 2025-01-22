@@ -7,6 +7,20 @@
     "text": "Abstract\nTBA\n\n\nAdvisor(s)\nProf.\n\n\nBio"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "",
+    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Old Chem 116\nInstructor: Merlise Clyde clyde@duke.edu"
+  },
+  {
+    "objectID": "index.html#schedule",
+    "href": "index.html#schedule",
+    "title": "Graduate Student Research Seminar Series",
+    "section": "Schedule ",
+    "text": "Schedule \n\n\n\n\n\n\n\n\nDate\nModerator\nSpeaker\nTitle\n\n\n\n\n13 Jan\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n20 Jan\nMLK Holiday\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n27 Jan\nHun Kang\nCathy Lee\nSharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes\n\n\n\n\n\n\nHoujie Wang\nTBA\n\n\n3 Feb\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\nNA\n\n\n10 Feb\nSylvia Vincent\nBonjung Sung\nTBA\n\n\n\n\n\n\nKateryna \"Kat\" Husar\n\n\n\n\n17 Feb\nJoshua Lim\nYueqi Guo\n\n\n\n\n\n\n\n\nLuke Vrotsos\n\n\n\n\n24 Feb\nSerim Hong\nBraden Scherting\n\n\n\n\n\n\n\n\nLorenzo Mauri\n\n\n\n\n3 Mar\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n10 Mar\nSpring Break\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n17 Mar\nLuigi Malgieri\nAihua Li\n\n\n\n\n\n\n\n\nYen-Chun Liu\n\n\n\n\n24 Mar\nEmily Jensen\nPiotr Suder\n\n\n\n\n\n\n\n\nBennedetta Bruni\n\n\n\n\n31 Mar\nYinyihong Liu\nSuchismita Roy\n\n\n\n\n\n\n\n\nLeah Johnson\n\n\n\n\n7 Apr\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n14 Apr\nRuwimal Pathiraja\nCaitrin Murphy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21 Apr\nReading Period"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,17 +49,17 @@
     "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Graduate Student Research Seminar Series",
+    "objectID": "abstracts/cathy_lee.html",
+    "href": "abstracts/cathy_lee.html",
+    "title": "Sharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes",
     "section": "",
-    "text": "Time: Mondays 11:45 - 1:00 pm\nPlace: Old Chem 116\nInstructor: Merlise Clyde clyde@duke.edu"
+    "text": "Ordinal outcomes are commonly measured across disciplines. However, with such ordered categorical outcomes, we do not have information on the magnitude of the difference between outcomes. Because of this, commonly studied estimands in causal experiments, such as the average treatment effect (ATE), are not well defined. One approach to dealing with ordinal outcomes is latent variable modeling. However, a partial identification strategy may be desirable as it does not require making modeling assumptions. To that end, we prove sharp upper and lower bounds on the probability that the potential outcome under treatment is equal to that under control. The infrequency at which the sharp lower bound is strictly greater than zero motivates us to prove how the sharp lower bound changes when we inject belief on the magnitude of the probability that the outcome under the two groups are equal.\n\n\nAlex Volfovsky\n\n\n\nCathy is a 4th year whose research focus is in causal inference."
   },
   {
-    "objectID": "index.html#schedule",
-    "href": "index.html#schedule",
-    "title": "Graduate Student Research Seminar Series",
-    "section": "Schedule ",
-    "text": "Schedule \n\n\n\n\n\n\n\n\nDate\nModerator\nSpeaker\nTitle\n\n\n\n\n13 Jan\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n20 Jan\nMLK Holiday\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n27 Jan\nHun Kang\nCathy Lee\nTBA\n\n\n\n\n\n\nHoujie Wang\n\n\n\n\n3 Feb\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n10 Feb\nSylvia Vincent\nBonjung Sung\n\n\n\n\n\n\n\n\nKateryna \"Kat\" Husar\n\n\n\n\n17 Feb\nJoshua Lim\nYueqi Guo\n\n\n\n\n\n\n\n\nLuke Vrotsos\n\n\n\n\n24 Feb\nSerim Hong\nBraden Scherting\n\n\n\n\n\n\n\n\nLorenzo Mauri\n\n\n\n\n3 Mar\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n10 Mar\nSpring Break\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n17 Mar\nLuigi Malgieri\nAihua Li\n\n\n\n\n\n\n\n\nYen-Chun Liu\n\n\n\n\n24 Mar\nEmily Jensen\nPiotr Suder\n\n\n\n\n\n\n\n\nBennedetta Bruni\n\n\n\n\n31 Mar\nYinyihong Liu\nSuchismita Roy\n\n\n\n\n\n\n\n\nLeah Johnson\n\n\n\n\n7 Apr\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n14 Apr\nRuwimal Pathiraja\nCaitrin Murphy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21 Apr\nReading Period"
+    "objectID": "abstracts/cathy_lee.html#abstract",
+    "href": "abstracts/cathy_lee.html#abstract",
+    "title": "Sharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes",
+    "section": "",
+    "text": "Ordinal outcomes are commonly measured across disciplines. However, with such ordered categorical outcomes, we do not have information on the magnitude of the difference between outcomes. Because of this, commonly studied estimands in causal experiments, such as the average treatment effect (ATE), are not well defined. One approach to dealing with ordinal outcomes is latent variable modeling. However, a partial identification strategy may be desirable as it does not require making modeling assumptions. To that end, we prove sharp upper and lower bounds on the probability that the potential outcome under treatment is equal to that under control. The infrequency at which the sharp lower bound is strictly greater than zero motivates us to prove how the sharp lower bound changes when we inject belief on the magnitude of the probability that the outcome under the two groups are equal.\n\n\nAlex Volfovsky\n\n\n\nCathy is a 4th year whose research focus is in causal inference."
   }
 ]
