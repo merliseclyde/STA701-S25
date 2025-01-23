@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/TBA.html</loc>
-    <lastmod>2025-01-22T19:32:40.577Z</lastmod>
+    <loc>https://merliseclyde.github.io/STA701-S25/index.html</loc>
+    <lastmod>2025-01-23T20:11:46.840Z</lastmod>
   </url>
   <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/index.html</loc>
-    <lastmod>2025-01-22T19:32:40.585Z</lastmod>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/Houjie_Wang.html</loc>
+    <lastmod>2025-01-23T20:11:46.831Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/about.html</loc>
-    <lastmod>2025-01-22T19:32:40.576Z</lastmod>
+    <lastmod>2025-01-23T20:11:46.830Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/TBA.html</loc>
+    <lastmod>2025-01-23T20:11:46.831Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/abstracts/cathy_lee.html</loc>
-    <lastmod>2025-01-22T19:32:40.577Z</lastmod>
+    <lastmod>2025-01-23T20:11:46.831Z</lastmod>
   </url>
 </urlset>

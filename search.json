@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "abstracts/TBA.html#abstract",
-    "href": "abstracts/TBA.html#abstract",
-    "title": "701 abstract",
-    "section": "Abstract",
-    "text": "Abstract\nTBA\n\n\nAdvisor(s)\nProf.\n\n\nBio"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Graduate Student Research Seminar Series",
@@ -18,7 +11,14 @@
     "href": "index.html#schedule",
     "title": "Graduate Student Research Seminar Series",
     "section": "Schedule ",
-    "text": "Schedule \n\n\n\n\n\n\n\n\nDate\nModerator\nSpeaker\nTitle\n\n\n\n\n13 Jan\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n20 Jan\nMLK Holiday\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n27 Jan\nHun Kang\nCathy Lee\nSharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes\n\n\n\n\n\n\nHoujie Wang\nTBA\n\n\n3 Feb\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\nNA\n\n\n10 Feb\nSylvia Vincent\nBonjung Sung\nTBA\n\n\n\n\n\n\nKateryna \"Kat\" Husar\n\n\n\n\n17 Feb\nJoshua Lim\nYueqi Guo\n\n\n\n\n\n\n\n\nLuke Vrotsos\n\n\n\n\n24 Feb\nSerim Hong\nBraden Scherting\n\n\n\n\n\n\n\n\nLorenzo Mauri\n\n\n\n\n3 Mar\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n10 Mar\nSpring Break\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n17 Mar\nLuigi Malgieri\nAihua Li\n\n\n\n\n\n\n\n\nYen-Chun Liu\n\n\n\n\n24 Mar\nEmily Jensen\nPiotr Suder\n\n\n\n\n\n\n\n\nBennedetta Bruni\n\n\n\n\n31 Mar\nYinyihong Liu\nSuchismita Roy\n\n\n\n\n\n\n\n\nLeah Johnson\n\n\n\n\n7 Apr\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n14 Apr\nRuwimal Pathiraja\nCaitrin Murphy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21 Apr\nReading Period"
+    "text": "Schedule \n\n\n\n\n\n\n\n\nDate\nModerator\nSpeaker\nTitle\n\n\n\n\n13 Jan\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n20 Jan\nMLK Holiday\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n27 Jan\nHun Kang\nCathy Lee\nSharp Bounding Null Effects in Causal Experiments with Ordinal Outcomes\n\n\n\n\n\n\nHoujie Wang\nLikelihood-based Inference on Partially Observed Epidemics and Network Dynamics\n\n\n3 Feb\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\nNA\n\n\n10 Feb\nSylvia Vincent\nBonjung Sung\nTBA\n\n\n\n\n\n\nKateryna \"Kat\" Husar\n\n\n\n\n17 Feb\nJoshua Lim\nYueqi Guo\nTBA\n\n\n\n\n\n\nLuke Vrotsos\nTBA\n\n\n24 Feb\nSerim Hong\nBraden Scherting\nTBA\n\n\n\n\n\n\nLorenzo Mauri\nTBA\n\n\n3 Mar\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n10 Mar\nSpring Break\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n17 Mar\nLuigi Malgieri\nAihua Li\n\n\n\n\n\n\n\n\nYen-Chun Liu\n\n\n\n\n24 Mar\nEmily Jensen\nPiotr Suder\n\n\n\n\n\n\n\n\nBennedetta Bruni\n\n\n\n\n31 Mar\nYinyihong Liu\nSuchismita Roy\n\n\n\n\n\n\n\n\nLeah Johnson\n\n\n\n\n7 Apr\nFaculty Meeting\n\n\n\n\n\n\n\n\nNo Talks\n\n\n\n\n\n\n14 Apr\nRuwimal Pathiraja\nCaitrin Murphy\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n21 Apr\nReading Period"
+  },
+  {
+    "objectID": "abstracts/Houjie_Wang.html#abstract",
+    "href": "abstracts/Houjie_Wang.html#abstract",
+    "title": "701 abstract",
+    "section": "Abstract",
+    "text": "Abstract\nTBA\n\n\nAdvisor(s)\nProf.\n\n\nBio"
   },
   {
     "objectID": "about.html",
@@ -47,6 +47,13 @@
     "title": "About",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nYou must be logged in to GitHub to submit a request.↩︎"
+  },
+  {
+    "objectID": "abstracts/TBA.html#abstract",
+    "href": "abstracts/TBA.html#abstract",
+    "title": "701 abstract",
+    "section": "Abstract",
+    "text": "Abstract\nTBA\n\n\nAdvisor(s)\nProf.\n\n\nBio"
   },
   {
     "objectID": "abstracts/cathy_lee.html",
