@@ -1,21 +1,20 @@
 ---
-title: "701 abstract"
-author: "Jane Q Student"
+title: "Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics"
+
+author: "Houjie Wang"
+
 date: "Jan 27, 2025"
----
-
-
 
 ---
 
-## Abstract
+## Abstract 
 
-TBA
+Pandemic modeling based on dynamic social contact network has gradually gained popularity and has been proved to be better at parameter estimation than the traditional epidemic models based on the  traditional``random mixing assumption''. However, leveraging the dynamics of the contact network requires very high-resolution data, which is costly to collect and could raise privacy concerns. To relaxed the need for granular observations, we propose a data-augmentation method for an advanced individual-level framework with interplay between the SIR-type epidemics and an underlying dynamic social contact network, which allows the social contact network to be observed at a very low frequency. By repeated simulation of disease transmission in a dynamic social contact network, we show that our method with the coarsened data is able to carry out valid estimation and inference of the infection rate of the pandemic. We applied our method to an actual dataset of on-campus university students suffered from a flu pandemic where granular observations of their epidemic status and dynamic contact network is available, and the result shows that the estimation with the coarsened data is close to the granular data MLE. This verifies the method and shreds light on its application to a larger scale.
 
----
 
 ### Advisor(s)
+Alexander Volfovsky
 
-Prof.
 
-### Bio 
+### Bio
+BS in statistics at Texas A&M University; MS in in statistics at University of Washington. Currently 3rd year in the department. Interested to work on methodologies to address applied modeling problems in network and time series data.
