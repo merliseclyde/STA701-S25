@@ -1,0 +1,21 @@
+---
+title: "Testing Separability of Covariance Matrices in High-Dimensional Settings"
+
+author: "Bongjung Sung"
+
+date: "Feb 10, 2025"
+
+---
+
+## Abstract 
+
+Due to their parsimony, separable covariance models have been popular in modeling matrix-variate data. Yet, they may yield misleading inferences if the separability assumption is incorrect. Likelihood ratio tests have tractable null distributions and good power when the sample size n is at least the number of variables p, but are not well-defined otherwise. Other existing separability tests for the p>n case have low power for small sample sizes and null distributions dependent on unknown parameters, preventing exact error rate control. To address these issues, we propose novel invariant tests using the core covariance matrix, a complementary notion to a separable covariance matrix. We show that testing separability of a covariance matrix is equivalent to testing sphericity of its core component. Based on this, we construct the test statistics that are well-defined in high-dimensional settings and have distributions that are invariant under the null of separability, allowing exact simulation of null distributions. We study asymptotic null distributions and show consistency of our tests when p/n→ϒ∈(0,∞).  The large power of our proposed tests compared to existing procedures is also numerically illustrated.
+
+### Advisor(s)
+
+Peter Hoff 
+
+
+### Bio
+
+Bongjung is a third year PhD student interested in the statistical application with a core covariance matrix. 
