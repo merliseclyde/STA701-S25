@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Houjie Wang">
-<meta name="dcterms.date" content="2025-01-27">
+<meta name="author" content="Kat Husar">
+<meta name="dcterms.date" content="2025-02-10">
 
-<title>Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics – STA 701S Spring 2025</title>
+<title>Rerandomization with missing data – STA 701S Spring 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics</h1>
+<h1 class="title">Rerandomization with missing data</h1>
 </div>
 
 
@@ -137,14 +137,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Houjie Wang </p>
+             <p>Kat Husar </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 27, 2025</p>
+      <p class="date">February 10, 2025</p>
     </div>
   </div>
   
@@ -158,14 +158,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Pandemic modeling based on dynamic social contact network has gradually gained popularity and has been proved to be better at parameter estimation than the traditional epidemic models based on the traditional``random mixing assumption’’. However, leveraging the dynamics of the contact network requires very high-resolution data, which is costly to collect and could raise privacy concerns. To relaxed the need for granular observations, we propose a data-augmentation method for an advanced individual-level framework with interplay between the SIR-type epidemics and an underlying dynamic social contact network, which allows the social contact network to be observed at a very low frequency. By repeated simulation of disease transmission in a dynamic social contact network, we show that our method with the coarsened data is able to carry out valid estimation and inference of the infection rate of the pandemic. We applied our method to an actual dataset of on-campus university students suffered from a flu pandemic where granular observations of their epidemic status and dynamic contact network is available, and the result shows that the estimation with the coarsened data is close to the granular data MLE. This verifies the method and shreds light on its application to a larger scale.</p>
+<p>Randomized control trials are considered the gold standard in research because they allow for high confidence in establishing cause-and-effect relationships. Randomly assigning participants to the treatment or control group ensures that any observed differences in outcomes between these groups can be attributed to the intervention rather than external factors. However, differences between the groups can still occur due to chance, potentially resulting in misleading results. The issue of imbalance on observed covariates can be addressed in the design phase: rerandomization selects a treatment assignment from a subset of assignments that satisfy a predetermined balance criterion for pre-treatment covariates. Under rerandomization, classical estimators yield a more precise estimator and combining rerandomization with the regression adjustment can further improve inference. In practice, even in the pre-treatment stage, there may be substantial missingness in the data, which in turn can reduce the improvements due to rerandomization which cannot be addressed by simple post-hoc regression adjustment. By introducing missing data imputation methods into the rerandomization, we are able to recover the efficiency losses for estimating average treatment effects. We also show how performing rerandomization that adjusts for missingness combined with regression adjustment increases the precision of the estimates compared to regression adjustment alone, and recommends the use of rerandomization in the design of the study when missing data are present.</p>
 <section id="advisors" class="level3">
 <h3 class="anchored" data-anchor-id="advisors">Advisor(s)</h3>
-<p>Alexander Volfovsky</p>
+<p>My advisor is Alex Volfovsky</p>
 </section>
 <section id="bio" class="level3">
 <h3 class="anchored" data-anchor-id="bio">Bio</h3>
-<p>BS in statistics at Texas A&amp;M University; MS in in statistics at University of Washington. Currently 3rd year in the department. Interested to work on methodologies to address applied modeling problems in network and time series data.</p>
+<p>Kat is a third year student interested in designing experiments that improve covariate balance and better the efficiency of causal estimates.</p>
 
 
 </section>
