@@ -1,0 +1,21 @@
+---
+title: "Rerandomization with missing data"
+
+author: "Kat Husar"
+
+date: "Feb 10, 2025"
+
+---
+
+## Abstract 
+Randomized control trials are considered the gold standard in research because they allow for high confidence in establishing cause-and-effect relationships. Randomly assigning participants to the treatment or control group ensures that any observed differences in outcomes between these groups can be attributed to the intervention rather than external factors. However, differences between the groups can still occur due to chance, potentially resulting in misleading results. The issue of imbalance on observed covariates can be addressed in the design phase: rerandomization selects a treatment assignment from a subset of assignments that satisfy a predetermined balance criterion for pre-treatment covariates. Under rerandomization, classical estimators yield a more precise estimator and combining rerandomization with the regression adjustment can further improve inference. In practice, even in the pre-treatment stage, there may be substantial missingness in the data, which in turn can reduce the improvements due to rerandomization which cannot be addressed by simple post-hoc regression adjustment.  By introducing missing data imputation methods into the rerandomization, we are able to recover the efficiency losses for estimating average treatment effects. We also show how performing  rerandomization that adjusts for missingness combined with regression adjustment increases the precision of the estimates compared to regression adjustment alone, and recommends the use of rerandomization in the design of the study when missing data are present.
+
+
+### Advisor(s)
+
+My advisor is Alex Volfovsky
+
+
+### Bio
+
+Kat is a third year student interested in designing experiments that improve covariate balance and better the efficiency of causal estimates.
