@@ -1,0 +1,21 @@
+---
+title: "Spectral decomposition-assisted multi-study factor analysis"
+
+author: "Lorenzo Mauri"
+
+date: "Feb 24, 2025"
+
+---
+
+## Abstract 
+
+This work focuses on covariance estimation for multi-study data. Popular approaches employ factor-analytic terms with shared and study-specific loadings that decompose the variance into (i) a shared low-rank component, (ii) study-specific low-rank components, and (iii) a diagonal term capturing idiosyncratic variability. Our proposed methodology estimates the latent factors via spectral decompositions and infers the factor loadings via surrogate regression tasks, avoiding identifiability and computational issues of existing alternatives. The approximation error decreases as the sample size and the data dimension diverge, formalizing a blessing of dimensionality. Conditionally on the factors, loadings and residual error variances are inferred via conjugate normal-inverse gamma priors. The conditional posterior distribution of factor loadings has a simple product form across outcomes, facilitating parallelization. We show favorable asymptotic properties, including central limit theorems for point estimators and posterior contraction. The methods are applied to integrate three studies on gene associations among immune cells.
+
+### Advisor(s)
+
+David B. Dunson
+
+
+### Bio
+
+Lorenzo is a third year student working on latent factor models.
