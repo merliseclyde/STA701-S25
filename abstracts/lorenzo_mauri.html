@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Houjie Wang">
-<meta name="dcterms.date" content="2025-01-27">
+<meta name="author" content="Lorenzo Mauri">
+<meta name="dcterms.date" content="2025-02-24">
 
-<title>Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics – STA 701S Spring 2025</title>
+<title>Spectral decomposition-assisted multi-study factor analysis – STA 701S Spring 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics</h1>
+<h1 class="title">Spectral decomposition-assisted multi-study factor analysis</h1>
 </div>
 
 
@@ -137,14 +137,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Houjie Wang </p>
+             <p>Lorenzo Mauri </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 27, 2025</p>
+      <p class="date">February 24, 2025</p>
     </div>
   </div>
   
@@ -158,14 +158,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Pandemic modeling based on dynamic social contact network has gradually gained popularity and has been proved to be better at parameter estimation than the traditional epidemic models based on the traditional``random mixing assumption’’. However, leveraging the dynamics of the contact network requires very high-resolution data, which is costly to collect and could raise privacy concerns. To relaxed the need for granular observations, we propose a data-augmentation method for an advanced individual-level framework with interplay between the SIR-type epidemics and an underlying dynamic social contact network, which allows the social contact network to be observed at a very low frequency. By repeated simulation of disease transmission in a dynamic social contact network, we show that our method with the coarsened data is able to carry out valid estimation and inference of the infection rate of the pandemic. We applied our method to an actual dataset of on-campus university students suffered from a flu pandemic where granular observations of their epidemic status and dynamic contact network is available, and the result shows that the estimation with the coarsened data is close to the granular data MLE. This verifies the method and shreds light on its application to a larger scale.</p>
+<p>This work focuses on covariance estimation for multi-study data. Popular approaches employ factor-analytic terms with shared and study-specific loadings that decompose the variance into (i) a shared low-rank component, (ii) study-specific low-rank components, and (iii) a diagonal term capturing idiosyncratic variability. Our proposed methodology estimates the latent factors via spectral decompositions and infers the factor loadings via surrogate regression tasks, avoiding identifiability and computational issues of existing alternatives. The approximation error decreases as the sample size and the data dimension diverge, formalizing a blessing of dimensionality. Conditionally on the factors, loadings and residual error variances are inferred via conjugate normal-inverse gamma priors. The conditional posterior distribution of factor loadings has a simple product form across outcomes, facilitating parallelization. We show favorable asymptotic properties, including central limit theorems for point estimators and posterior contraction. The methods are applied to integrate three studies on gene associations among immune cells.</p>
 <section id="advisors" class="level3">
 <h3 class="anchored" data-anchor-id="advisors">Advisor(s)</h3>
-<p>Alexander Volfovsky</p>
+<p>David B. Dunson</p>
 </section>
 <section id="bio" class="level3">
 <h3 class="anchored" data-anchor-id="bio">Bio</h3>
-<p>BS in statistics at Texas A&amp;M University; MS in in statistics at University of Washington. Currently 3rd year in the department. Interested to work on methodologies to address applied modeling problems in network and time series data.</p>
+<p>Lorenzo is a third year student working on latent factor models.</p>
 
 
 </section>

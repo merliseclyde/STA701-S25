@@ -1,39 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/index.html</loc>
-    <lastmod>2025-02-07T15:22:26.928Z</lastmod>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/kat_huzar.html</loc>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
   </url>
   <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/Houjie_Wang.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/houjie_wang.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/lorenzo_mauri.html</loc>
+    <lastmod>2025-02-14T21:36:29.307Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/abstracts/TBA.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/Houjie_Wang.html</loc>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/index.html</loc>
+    <lastmod>2025-02-14T21:36:29.315Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/about.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
   </url>
   <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/bongjung_sung.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/kat_huzar.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
-  </url>
-  <url>
-    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/luke_vrotsos.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/houjie_wang.html</loc>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
   </url>
   <url>
     <loc>https://merliseclyde.github.io/STA701-S25/abstracts/cathy_lee.html</loc>
-    <lastmod>2025-02-07T15:22:26.919Z</lastmod>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/luke_vrotsos.html</loc>
+    <lastmod>2025-02-14T21:36:29.307Z</lastmod>
+  </url>
+  <url>
+    <loc>https://merliseclyde.github.io/STA701-S25/abstracts/bongjung_sung.html</loc>
+    <lastmod>2025-02-14T21:36:29.306Z</lastmod>
   </url>
 </urlset>
