@@ -1,0 +1,43 @@
+---
+title: “So many bugs… Decoupling NMF"
+
+author: “Braden Scherting"
+
+date: “Feb 24, 2025"
+
+---
+
+## Abstract 
+
+[Early stage work towards:] Nonnegative matrix factorization (NMF) is a well-established method for flexibly modeling high-dimensional, sparse count data that admits interpretable decompositions of latent constructs when the estimates are sparse. Despite the flexibility of NMF, error distributions implicit to deterministic solutions and popular, convenient hierarchical extensions falter when simultaneously confronted with extreme sparsity and large counts. Thus, misspecified models require larger factorization ranks to adequately fit such data, further complicating the choice of rank. Moreover, estimates produced by flexible hierarchical models are typically only approximately sparse. Motivated by a global-scale study of arthropod abundance, we present a decoupled, two-stage approach to NMF. In the first stage, abundances are modeled hierarchically; the chosen prior shrinks loadings and unnecessary factors while allowing overdispersion levels to vary among factors. A second-stage loss minimization procedure sparsifies estimates, which allow us to derive meta profiles of the ~50000 study species. Inference via MCMC is rapid thanks to the observed sparsity, and the second-stage optimization leverages existing efficient NMF computational schemes. 
+
+
+### Advisor(s)
+
+David Dunson
+
+
+### Bio
+
+3rd year
+---
+title: "701 abstract"
+author: "Jane Q Student"
+date: "Jan 27, 2025"
+---
+
+
+
+---
+
+## Abstract
+
+TBA
+
+---
+
+### Advisor(s)
+
+Prof.
+
+### Bio 
