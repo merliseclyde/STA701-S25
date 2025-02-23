@@ -107,23 +107,16 @@
   {
     "objectID": "abstracts/braden_scherting.html",
     "href": "abstracts/braden_scherting.html",
-    "title": "701 abstract",
+    "title": "“So many bugs… Decoupling NMF”",
     "section": "",
     "text": "[Early stage work towards:] Nonnegative matrix factorization (NMF) is a well-established method for flexibly modeling high-dimensional, sparse count data that admits interpretable decompositions of latent constructs when the estimates are sparse. Despite the flexibility of NMF, error distributions implicit to deterministic solutions and popular, convenient hierarchical extensions falter when simultaneously confronted with extreme sparsity and large counts. Thus, misspecified models require larger factorization ranks to adequately fit such data, further complicating the choice of rank. Moreover, estimates produced by flexible hierarchical models are typically only approximately sparse. Motivated by a global-scale study of arthropod abundance, we present a decoupled, two-stage approach to NMF. In the first stage, abundances are modeled hierarchically; the chosen prior shrinks loadings and unnecessary factors while allowing overdispersion levels to vary among factors. A second-stage loss minimization procedure sparsifies estimates, which allow us to derive meta profiles of the ~50000 study species. Inference via MCMC is rapid thanks to the observed sparsity, and the second-stage optimization leverages existing efficient NMF computational schemes.\n\n\nDavid Dunson\n\n\n\n3rd year"
   },
   {
     "objectID": "abstracts/braden_scherting.html#abstract",
     "href": "abstracts/braden_scherting.html#abstract",
-    "title": "701 abstract",
+    "title": "“So many bugs… Decoupling NMF”",
     "section": "",
     "text": "[Early stage work towards:] Nonnegative matrix factorization (NMF) is a well-established method for flexibly modeling high-dimensional, sparse count data that admits interpretable decompositions of latent constructs when the estimates are sparse. Despite the flexibility of NMF, error distributions implicit to deterministic solutions and popular, convenient hierarchical extensions falter when simultaneously confronted with extreme sparsity and large counts. Thus, misspecified models require larger factorization ranks to adequately fit such data, further complicating the choice of rank. Moreover, estimates produced by flexible hierarchical models are typically only approximately sparse. Motivated by a global-scale study of arthropod abundance, we present a decoupled, two-stage approach to NMF. In the first stage, abundances are modeled hierarchically; the chosen prior shrinks loadings and unnecessary factors while allowing overdispersion levels to vary among factors. A second-stage loss minimization procedure sparsifies estimates, which allow us to derive meta profiles of the ~50000 study species. Inference via MCMC is rapid thanks to the observed sparsity, and the second-stage optimization leverages existing efficient NMF computational schemes.\n\n\nDavid Dunson\n\n\n\n3rd year"
-  },
-  {
-    "objectID": "abstracts/braden_scherting.html#abstract-1",
-    "href": "abstracts/braden_scherting.html#abstract-1",
-    "title": "701 abstract",
-    "section": "Abstract",
-    "text": "Abstract\nTBA\n\n\nAdvisor(s)\nProf.\n\n\nBio"
   },
   {
     "objectID": "abstracts/cathy_lee.html",
