@@ -6,10 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Houjie Wang">
-<meta name="dcterms.date" content="2025-01-27">
+<meta name="author" content="Piotr M. Suder">
+<meta name="dcterms.date" content="2025-03-24">
 
-<title>Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics – STA 701S Spring 2025</title>
+<title>Empirical Bound Information-Directed Sampling for Norm-Agnostic Bandits – STA 701S Spring 2025</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Likelihood-based Inference on Partially Observed Epidemics and Network Dynamics</h1>
+<h1 class="title">Empirical Bound Information-Directed Sampling for Norm-Agnostic Bandits</h1>
 </div>
 
 
@@ -137,14 +137,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Houjie Wang </p>
+             <p>Piotr M. Suder </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 27, 2025</p>
+      <p class="date">March 24, 2025</p>
     </div>
   </div>
   
@@ -158,14 +158,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="abstract" class="level2">
 <h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
-<p>Pandemic modeling based on dynamic social contact network has gradually gained popularity and has been proved to be better at parameter estimation than the traditional epidemic models based on the traditional``random mixing assumption’’. However, leveraging the dynamics of the contact network requires very high-resolution data, which is costly to collect and could raise privacy concerns. To relaxed the need for granular observations, we propose a data-augmentation method for an advanced individual-level framework with interplay between the SIR-type epidemics and an underlying dynamic social contact network, which allows the social contact network to be observed at a very low frequency. By repeated simulation of disease transmission in a dynamic social contact network, we show that our method with the coarsened data is able to carry out valid estimation and inference of the infection rate of the pandemic. We applied our method to an actual dataset of on-campus university students suffered from a flu pandemic where granular observations of their epidemic status and dynamic contact network is available, and the result shows that the estimation with the coarsened data is close to the granular data MLE. This verifies the method and shreds light on its application to a larger scale.</p>
+<p>Information-directed sampling (IDS) is a powerful framework for solving bandit problems which has shown strong results in both Bayesian and frequentist settings. However, frequentist IDS, like many other bandit algorithms, requires that one have prior knowledge of a (relatively) tight upper bound on the norm of the true parameter vector governing the reward model in order to achieve good performance. Unfortunately, this requirement is rarely satisfied in practice. As we demonstrate, using a poorly calibrated bound can lead to significant regret accumulation. To address this issue, we introduce a novel frequentist IDS algorithm that iteratively refines a high-probability upper bound on the true parameter norm using accumulating data. We focus on the linear bandit setting with heteroskedastic subgaussian noise. Our method leverages a mixture of relevant information gain criteria to balance exploration aimed at tightening the estimated parameter norm bound and directly searching for the optimal action. We establish regret bounds for our algorithm that do not depend on an initially assumed parameter norm bound and demonstrate that our method outperforms state-of-the-art IDS and UCB algorithms.</p>
 <section id="advisors" class="level3">
 <h3 class="anchored" data-anchor-id="advisors">Advisor(s)</h3>
-<p>Alexander Volfovsky</p>
+<p>Eric Laber</p>
 </section>
 <section id="bio" class="level3">
 <h3 class="anchored" data-anchor-id="bio">Bio</h3>
-<p>BS in statistics at Texas A&amp;M University; MS in in statistics at University of Washington. Currently 3rd year in the department. Interested to work on methodologies to address applied modeling problems in network and time series data.</p>
+<p>I am a third year PhD student in the Department of Statistical Science working with Dr.&nbsp;Eric Laber. I am broadly interested in optimization and machine learning, including bandit algorithms, Bayesian optimization, reinforcement learning, and transfer learning. Before coming to Duke I got my Bachelors in Mathematics and Statistics from the University of Florida.</p>
 
 
 </section>
