@@ -1,0 +1,22 @@
+---
+title: "Empirical Bound Information-Directed Sampling for Norm-Agnostic Bandits"
+
+author: "Piotr M. Suder"
+
+date: "March 24, 2025"
+
+---
+
+## Abstract 
+
+Information-directed sampling (IDS) is a powerful framework for solving bandit problems which has shown strong results in both Bayesian and frequentist settings. However, frequentist IDS, like many other bandit algorithms, requires that one have prior knowledge of a (relatively) tight upper bound on the norm of the true parameter vector governing the reward model in order to achieve good performance. Unfortunately, this requirement is rarely satisfied in practice. As we demonstrate, using a poorly calibrated bound can lead to significant regret accumulation. To address this issue, we introduce a novel frequentist IDS algorithm that iteratively refines a high-probability upper bound on the true parameter norm using accumulating data. We focus on the linear bandit setting with heteroskedastic subgaussian noise. Our method leverages a mixture of relevant information gain criteria to balance exploration aimed at tightening the estimated parameter norm bound and directly searching for the optimal action. We establish regret bounds for our algorithm that do not depend on an initially assumed parameter norm bound and demonstrate that our method outperforms state-of-the-art IDS and UCB algorithms.
+
+
+### Advisor(s)
+
+Eric Laber
+
+
+### Bio
+
+I am a third year PhD student in the Department of Statistical Science working with Dr. Eric Laber.  I am broadly interested in optimization and machine learning, including bandit algorithms, Bayesian optimization, reinforcement learning, and transfer learning. Before coming to Duke I got my Bachelors in Mathematics and Statistics from the University of Florida.
