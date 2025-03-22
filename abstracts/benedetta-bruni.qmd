@@ -1,0 +1,22 @@
+---
+title: "A partial likelihood approach to tree-based density modeling and its application in Bayesian inference"
+
+author: "Benedetta Bruni"
+
+date: "March 24, 2025"
+
+---
+
+## Abstract 
+
+Tree-based priors for probability distributions are usually specified using a predetermined, data-independent collection of candidate recursive partitions of the sample space. To characterize an unknown target density in detail over the entire sample space, candidate partitions must have the capacity to expand deeply into all areas of the sample space with potential non-zero sampling probability. Such an expansive system of partitions often incurs prohibitive computational costs and makes inference prone to overfitting, especially in regions with little probability mass. Thus, existing models typically make a compromise and rely on relatively shallow trees. This hampers one of the most desirable features of trees, their ability to characterize local features, and results in reduced statistical efficiency. Traditional wisdom suggests that this compromise is inevitable to ensure coherent likelihood-based reasoning in Bayesian inference, as a data-dependent partition system that allows deeper expansion only in regions with more observations would induce double dipping of the data. We propose a simple strategy to restore coherency while allowing the candidate partitions to be data-dependent, using Cox’s partial likelihood. Our partial likelihood approach is broadly applicable to existing likelihood-based methods and, in particular, to Bayesian inference on tree-based models. We give examples in density estimation in which the partial likelihood is endowed with existing priors on tree-based models and compare with the standard, full-likelihood approach. The results show substantial gains in estimation accuracy and computational efficiency from adopting the partial likelihood.
+
+
+### Advisor(s)
+
+Li Ma
+
+
+### Bio
+
+3rd year PhD student in the Department of Statistics. 
