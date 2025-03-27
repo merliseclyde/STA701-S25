@@ -1,0 +1,22 @@
+---
+title: "SIR Models under Missing Data: Marginal likelihoods and Dynamical Survival Analysis"
+
+author: "Suchismita Roy"
+
+date: "March 31, 2025"
+
+---
+
+## Abstract 
+
+The SIR model is a compartmental model widely used to model epidemic dynamics. Despite its widespread use, inferring parameters from such compartmental models using partially observed data presents significant challenges due to the intractability of the likelihood. To address this, we develop a closed-form approximate likelihood using the Dynamical Survival Analysis (DSA) method, which offers flexibility and computational efficiency. Through a simulation study, we assess its performance and compare it with the PDSIR method, which is also designed for inference using incidence data. To further demonstrate the adaptability of our approach, we extend the likelihood to frailty models, illustrating how it can be modified to incorporate individual heterogeneity. Finally, we apply our method to real-world data from the 2018–2020 Ebola outbreak in the Democratic Republic of the Congo, demonstrating its practical utility for epidemic inference with limited observations.
+
+
+### Advisor(s)
+
+Dr. Jason Xu and Dr. Alexander Fisher
+
+
+### Bio
+
+a brief bio - I am a third-year PhD student. I am interested in epidemic models and Bayesian phylogenetics.

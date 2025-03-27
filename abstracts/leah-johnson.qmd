@@ -1,0 +1,24 @@
+---
+title: "Adversarial Graph Traversal"
+
+author: "Leah Johnson"
+
+date: "March 31, 2025"
+
+---
+
+## Abstract 
+
+Real‑world sequential decision problems—from career planning to supply‑chain routing—can often be modeled from the point of view of an agent traversing a known network, with unknown opportunities and costs. In the non‑adversarial setting, Caballero et al. (2025) study Bayesian graph traversal under a Gaussian process prior for node reward and edge cost functions, proposing several heuristics that aim to maximize expected payoff. However, many practical environments also include adversarial actors who can impose additional costs on a traveler’s route or reduce available rewards.
+ 
+We present ongoing work on an application of Adversarial Risk Analysis (ARA) to graph navigation, which departs from traditional game‑theoretic formulations by allowing the decision‑maker to maintain her own probabilistic beliefs about both environmental uncertainty and adversarial behavior—without requiring common knowledge or rationality assumptions. We illustrate this approach through a simple example in which an adversary, fully informed of the graph structure and underlying payoffs, can impose a fixed penalty on any node adjacent to the traveler’s current position. 
+
+
+### Advisor(s)
+
+Eric Laber, David Banks
+
+
+### Bio
+
+Leah is a 3rd year PhD student interested in sequential decision making, and clinical trial design. 
