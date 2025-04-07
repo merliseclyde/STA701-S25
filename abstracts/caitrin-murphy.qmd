@@ -1,0 +1,21 @@
+---
+title: "Functional Principal Component Analysis for Censored Data"
+
+author: "Caitrin Murphy"
+
+date: "April 14, 2025"
+
+---
+
+## Abstract 
+
+Functional principal component analysis (FPCA) is a key tool in the study of functional data, driving both exploratory analyses and feature construction for use in formal modeling and testing procedures. However, existing methods for FPCA do not apply when functional observations are censored, e.g., the measurement instrument only supports recordings within a pre-specified interval, thereby truncating values outside of the range to the nearest boundary. A naïve application of existing methods, without correction for censoring, induces bias. We extend the FPCA framework to accommodate censored noisy functional data that are either sparsely or densely observed. First, we use local likelihood maximization to recover smooth mean and covariance surface estimates that are representative of the latent process’s mean and covariance functions. The covariance smoothing procedure yields a positive semi-definite covariance surface that is computed without the need to retroactively remove negative eigenvalues in the covariance operator decomposition. Additionally, we construct an FPC score predictor, conditional on the censored functional data, and demonstrate its use in the generalized functional linear model. In simulation experiments, the proposed method yields better predictive performance and lower bias than existing alternatives. We illustrate its practical value through an application to a study with censored blood glucose measurements.
+
+
+### Advisor(s)
+
+Eric Laber
+
+### Bio
+
+Caitrin is a 3rd year PhD student interested in functional data analysis.
